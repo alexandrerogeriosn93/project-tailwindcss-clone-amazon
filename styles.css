@@ -44,8 +44,18 @@
   @apply text-orange-650;
 }
 
+.btn-amazon-prime {
+  @apply block h-12 w-full items-center rounded border border-yellow-700 bg-yellow-350 px-3 py-3 text-center text-sm;
+}
+
 @screen md {
   .address-container {
     @apply py-0;
   }
+
+  .btn-amazon-prime {
+    @apply ml-10 flex h-8 w-auto py-0 text-xs;
+  }
 }
+
+/* block h-12 w-full items-center rounded border border-yellow-700 bg-yellow-350 px-3 py-3 text-center text-sm md:ml-10 md:flex md:h-8 md:w-auto md:py-0 md:text-xs */
