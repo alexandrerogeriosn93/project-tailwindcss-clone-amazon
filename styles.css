@@ -20,6 +20,14 @@
   @apply border-white;
 }
 
+.item-nav-bottom {
+  @apply border-b-2 border-transparent px-3 py-1;
+}
+
+.item-nav-bottom:hover {
+  @apply border-orange-650 text-orange-650;
+}
+
 @screen md {
   .address-container {
     @apply py-0;
