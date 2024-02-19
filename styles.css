@@ -28,6 +28,14 @@
   @apply border-orange-650 text-orange-650;
 }
 
+.item-nav-link {
+  @apply text-gray-800;
+}
+
+.item-nav-link:hover {
+  @apply text-orange-650;
+}
+
 @screen md {
   .address-container {
     @apply py-0;
