@@ -17,5 +17,77 @@
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="grid text-white">
+        <div
+          class="flex flex-wrap items-center bg-darkblue-900 px-2 py-1 md:flex-nowrap"
+        >
+          <div
+            class="rounded border-gray-700 px-2 py-1 hover:border-white md:border"
+          >
+            <i class="fas fa-bars text-2xl"></i>
+          </div>
+          <div
+            class="mx-2 flex border border-transparent py-2 hover:border-white"
+          >
+            <img src="assets/img/amazon_logo.png" alt="Amazon" class="h-7" />
+            <span class="pl-1 pt-1 text-xs">.com.br</span>
+          </div>
+          <div
+            class="order-2 mr-0 w-full flex-grow pt-1 md:order-none md:ml-3 md:w-auto"
+          >
+            <form action="" class="flex">
+              <select
+                class="hidden rounded-bl rounded-tl border-gray-500 bg-gray-100 p-2 text-xs text-gray-700 hover:bg-gray-300 md:block"
+              >
+                <option value="">Livros</option>
+              </select>
+              <input
+                type="text"
+                class="flex-grow rounded-l p-2 md:rounded-none"
+              />
+              <button
+                class="rounded-br rounded-tr bg-gold-100 px-4 hover:bg-gold-200"
+              >
+                <i class="fas fa-search mt-1 text-xl text-darkblue-900"></i>
+              </button>
+            </form>
+          </div>
+          <div
+            class="ml-1 hidden rounded-sm border border-transparent p-2 pb-1 text-xs hover:border-white md:block"
+          >
+            <p class="leading-3">Olá, faça seu login</p>
+            <p class="font-extrabold">
+              Contas e Listas <i class="fas fa-chevron-down"></i>
+            </p>
+          </div>
+          <div
+            class="hidden rounded-sm border border-transparent p-2 pb-1 text-xs hover:border-white md:block"
+          >
+            <p class="leading-3">Devoluções</p>
+            <p class="font-extrabold">e Pedidos</p>
+          </div>
+          <div
+            class="hidden rounded-sm border border-transparent p-2 pb-1 text-xs hover:border-white md:block"
+          >
+            <p class="leading-3">Experimente</p>
+            <p class="font-extrabold">
+              Prime <i class="fas fa-chevron-down"></i>
+            </p>
+          </div>
+          <div
+            class="absolute right-0 top-0 order-1 mr-2 mt-2 rounded-sm border border-transparent p-2 hover:border-white md:relative md:top-0 md:order-none md:mr-0 md:flex"
+          >
+            <i class="fas fa-shopping-cart flex text-2xl md:mr-2"></i>
+            <span
+              class="bold absolute left-0 top-0 -mt-1 ml-4 h-6 w-6 rounded-full bg-darkblue-600 text-center text-base text-gold-200"
+              >0</span
+            >
+            <span class="hidden text-xs font-extrabold md:flex">Carrinho</span>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
