@@ -36,6 +36,14 @@
   @apply text-orange-650;
 }
 
+.item-category-link {
+  @apply border-r border-black px-1 text-blue-600 underline;
+}
+
+.item-category-link:hover {
+  @apply text-orange-650;
+}
+
 @screen md {
   .address-container {
     @apply py-0;
