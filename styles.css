@@ -48,6 +48,10 @@
   @apply block h-12 w-full items-center rounded border border-yellow-700 bg-yellow-350 px-3 py-3 text-center text-sm;
 }
 
+.item-footer-inf {
+  @apply mb-10 hidden text-gray-600;
+}
+
 @screen md {
   .address-container {
     @apply py-0;
@@ -55,6 +59,10 @@
 
   .btn-amazon-prime {
     @apply ml-10 flex h-8 w-auto py-0 text-xs;
+  }
+
+  .item-footer-inf {
+    @apply block;
   }
 }
 
